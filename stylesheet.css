@@ -23,6 +23,7 @@ body {
 }
 .sedans {
   background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
 }
 .suvs {
   background-color: hsl(184, 100%, 22%);
@@ -30,23 +31,36 @@ body {
 
 .luxury {
   background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
 }
 
 h1,
 p {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 30px;
+  margin-right: 45px;
+  /*margin: 1em;*/
 }
 
 p {
-  font-size: 15px;
+  font-size: 12px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 200;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 button {
   position: absolute;
   bottom: 30px;
-  margin: 1rem;
+  margin-left: 30px;
+
   width: 120px;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 400;
 }
 
 .button-sedans {
@@ -75,8 +89,8 @@ button {
 }
 
 .car-icon {
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 30px;
+  margin-top: 50px;
 }
 
 footer {
@@ -103,9 +117,25 @@ footer {
     height: 100%;
   }
 
+  p {
+    font-weight: 400;
+  }
+
   footer {
     position: absolute;
     bottom: -350px;
     font-size: 12px;
+  }
+  .sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0;
+  }
+  .suvs {
+    background-color: hsl(184, 100%, 22%);
+  }
+
+  .luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
   }
 }
