@@ -3,7 +3,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  overflow: hidden;
 }
 
 .container {
@@ -80,6 +79,12 @@ button {
   margin-top: 20px;
 }
 
+footer {
+  position: absolute;
+  bottom: 100px;
+  margin: -1em;
+}
+
 @media screen and (max-width: 550px) {
   .container {
     max-width: 100%;
@@ -95,7 +100,12 @@ button {
   }
 
   body {
-    height: 280vw;
-    overflow: auto;
+    height: 100%;
+  }
+
+  footer {
+    position: absolute;
+    bottom: -350px;
+    font-size: 12px;
   }
 }
